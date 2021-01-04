@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+*{
+	box-sizing: border-box;
+	font-family: 'Do Hyeon', sans-serif;
+	padding: 0;
+	margin: 0;
+
+}
+
+body{
+	background: linear-gradient(lightcyan, #9198e5);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	border: 1px solid red;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.timer{
+	width: 80%;
+	height: 40%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border: 1px solid red;
+}
+
+h1{
+	font-family: 'Work Sans', sans-serif;
+	color: white;
+	font-size: 53px;
+}
+
+.count{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+}
+
+.mins .secs .hours .days{
+	width: 60px;
+	height: 100px;
+	color: white;
+}
+
+#mins #secs #hours #days{
+	font-size: 30px;
+	color: white;
+}
+
+.Text{
+
+	font-size: 70px;
+}
