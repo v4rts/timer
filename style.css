@@ -16,7 +16,6 @@ body{
 	background-size: cover;
 	width: 100vw;
 	height: 100vh;
-	border: 1px solid red;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -31,7 +30,6 @@ body{
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	border: 1px solid red;
 }
 
 h1{
@@ -41,21 +39,27 @@ h1{
 }
 
 .count{
+	padding-top: 30px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-direction: row;
 	align-items: center;
+	width: 60%;
 }
 
-.mins .secs .hours .days{
+.mins, .secs, .hours, .days{
 	width: 60px;
 	height: 100px;
 	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
 }
 
-#mins #secs #hours #days{
-	font-size: 30px;
+.count span{
 	color: white;
+	font-size: 30px;
 }
 
 .Text{
