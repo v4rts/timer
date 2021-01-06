@@ -44,7 +44,7 @@ h1{
 	justify-content: space-between;
 	flex-direction: row;
 	align-items: center;
-	width: 60%;
+	width: 50%;
 }
 
 .mins, .secs, .hours, .days{
